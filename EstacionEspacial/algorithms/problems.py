@@ -306,8 +306,6 @@ class ModuleRepairProblem(SearchProblem):
                 successors.append((nextState, direction, stepcost))
         return successors
 
-             
-        return successors
 
     def getCostOfActions(self, actions):
         """
